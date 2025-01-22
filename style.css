@@ -175,3 +175,124 @@
         margin: 0;
     }
 }
+/* standard curriculam */
+.card-section{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+    margin: 50px;
+}
+.card-section h1{
+    font-weight: bold;
+    font-size: 46px;
+}
+.card{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+/* card-1 styling  */
+.card-1{  
+    background-image: linear-gradient(skyblue 1%, white 40%);
+    text-align: center;
+    height: 20rem;
+    width: 20rem;
+
+}
+.card>.card-1 h2{
+    margin-bottom: 10px;
+}
+
+.card>.card-1{
+    border-radius: 19px;
+    border: 1px solid skyblue;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+.card>.card-1 button{
+    font-weight: bold;
+    font-size: 15px;
+    border: none;
+    color:skyblue;
+    margin-top: 10px;
+}
+/* .card-2 styling  */
+.card-2{
+    background-image: linear-gradient(#F0AA00 1%, white 40%);
+    text-align: center;
+    height: 20rem;
+    width: 20rem;
+}
+.card>.card-2 h2{
+    margin-bottom: 10px;
+}
+
+.card>.card-2{
+    border-radius: 19px;
+    border: 1px solid #F0AA00;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+.card>.card-2 button{
+    font-weight: bold;
+    font-size: 15px;
+    border: none;
+    color: #F0AA00;
+    margin-top: 10px;
+}
+/* card-3 styling  */
+.card-3{
+    background-image: linear-gradient(#8700FF 1%, white 40%);
+    text-align: center;
+    height: 20rem;
+    width: 20rem;
+}
+.card>.card-3 h2{
+    margin-bottom: 10px;
+}
+
+.card>.card-3{
+    border-radius: 19px;
+    border: 1px solid #8700FF;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+.card>.card-3 button{
+    font-weight: bold;
+    font-size: 15px;
+    border: none;
+    color:#8700FF;
+    margin-top: 10px;
+}
+.card-section > .arrow{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.card-section > .arrow img{
+    height: 30px;
+    background-color: orange;
+    padding: 10px;
+    padding: 10px;
+    border-radius: 50%;
+}
+
+@media screen and (max-width:576px){
+    .card-section > .arrow{
+        display: none;
+    }
+    .card-section>.card{
+        display: flex;
+        flex-direction: column;
+    }
+    .card-section h1{
+        font-weight: bold;
+        font-size: 30px;
+    }
+}
